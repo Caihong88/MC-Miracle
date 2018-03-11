@@ -1,0 +1,21 @@
+h1{
+  color:red;}
+
+body{color:purple;
+  background-color: orange;
+  font-family: arial;
+}
+
+#randomtext{color:green;}
+
+#randomrandom{color:pink;}
+
+div{
+  max-width:500px;
+  margin:auto;
+  height:200px;
+}
+div:hover{color:green;}
+
+#dudley{height:auto;
+width:auto;}
