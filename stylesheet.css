@@ -1,33 +1,33 @@
-h1
-{
-	color:blue;
-	font-family:'Monoton',cursive;
-	text-align:center;
-	font-size:70px;
-	background:url("http://dash.ga.co/assets/jeff-bg.png");
-	background-size:cover;
-	color:MediumSeaGreen;
-	}
+h1 {
+	color: blue;
+	font-family: 'Monoton',cursive;
+	text-align: center;
+	font-size: 50px;
+	background: url("http://dash.ga.co/assets/jeff-bg.png");
+	background-size: cover;
+	color: MediumSeaGreen;
 }
+
+header {
+  width: 90%;
+}
+
 ul {
-	padding:10px;
-	background:black;
+	padding: 10px;
+	background: black;
 }
+
 li {
-	display:inline;
-	padding:0px 10px 0px 10px;
-}
-	
-
-
-h2
-{
-	color:blue;
-	text-align:center;
-	font-size:52px
+	display: inline;
+	padding: 0px 10px 0px 10px;
 }
 
-img
-{
-	margin:40px 0px 0px 0px
-	
+h2 {
+	color: blue;
+	text-align: center;
+	font-size: 52px
+}
+
+img {
+	margin: 40px 0px 0px 0px
+}
