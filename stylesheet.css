@@ -1,27 +1,30 @@
-h1 {
-  color:red;
-}
-
-body {
-  color:purple;
-  background-color: orange;
-  font-family: arial;
-}
-
-#randomtext {
-  color:green;
-}
-
-#randomrandom {
-  color:pink;
-}
-
-div {
-  max-width:500px;
-  margin:auto;
-  height:200px;
-}
-
-div:hover {
-  color:green;
-}
+<!doctype html>
+<html>
+   <head>
+	<link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="style.css">
+	  
+   </head>
+   <body>
+      <div>
+         <h1>Food Share Students</h1>
+		 <ul>
+			<nav>
+			<li><a href="#"></a></li>
+			<li><a href="#">Get Involved</a></li>
+			<li><a href="file:///D:/Users/Cara%20Bilson/Desktop/Code_For_Girls/MC-MIRACLE/Impact.html">Impact</a></li>
+			<nav/>
+		 </ul>
+         
+		<h2><img src="hippo.jpg"></h2>
+         <h3>Cara <del>Rules</del></h3>
+         <a href="http://www.bbc.co.uk/news">Believe me</a>
+         <p><strong><u>Bold</u></strong> and <u>underline</u>- how??</p>
+         <h4>
+         <small>Hull University</small>
+         </h4>
+         <p>Code for girls</p>
+         <img src="girls who code.png">
+      </div>
+   </body>
+</html>
