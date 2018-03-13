@@ -1,19 +1,27 @@
-h1{
-  color:red;}
+h1 {
+  color:red;
+}
 
-body{color:purple;
+body {
+  color:purple;
   background-color: orange;
   font-family: arial;
 }
 
-#randomtext{color:green;}
+#randomtext {
+  color:green;
+}
 
-#randomrandom{color:pink;}
+#randomrandom {
+  color:pink;
+}
 
-div{
+div {
   max-width:500px;
   margin:auto;
   height:200px;
 }
-div:hover{color:green;}
 
+div:hover {
+  color:green;
+}
