@@ -30,6 +30,41 @@
 	      </nav>
 	   <div class="example-classname"></div>
       <div class="example-classname"></div>
+	   
+	    <div id="wrapper">
+
+        <section id="panel1" class="panel fullscreen" data-section-name="Landing Panel">
+            <h1>Landing page</h1>
+            <button class="scroll">Click to view next panel (or scroll)...</button>
+            <img src="images/Celica.jpg" id="scroll-image" class="image-start-pos" style="max-width:50vh;" />
+        </section>
+		    
+		     <!-- Second scrollify panel -->
+        <section id="panel2" class="panel" data-section-name="Panel 2">
+            <h1>Panels grow with content but are otherwise full-screen</h1>
+            <div>
+		   eros a sodales. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin 
+		    sagittis dignissim ante sed hendrerit. In hac habitasse platea dictumst. Mauris efficitur accumsan ipsum in lacinia. 
+		    Nulla odio orci, faucibus vitae gravida porttitor, efficitur a diam. Nunc aliquet mi ligula, sed porttitor lectus 
+		    faucibus non. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+		Phasellus vestibulum sit amet ipsum sit amet ullamcorper. Donec porttitor viverra aliquet. Nunc et ligula eget felis 
+		    imperdiet dapibus sit amet consequat ante. In at facilisis magna. Nulla nisl quam, euismod ut velit quis, 
+		    sollicitudin bibendum nisl. 
+		    Maecenas ut dictum massa, sed maximus nulla. Aliquam molestie facilisis justo luctus dignissim. Aenean nec est lorem. Vestibulum posuere, nisl at consequat gravida, velit ex scelerisque turpis, nec luctus odio mi nec magna. Nam hendrerit varius elit in pulvinar. 
+		    </div> <!-- Just some content. -->
+        </section>
+		    <!-- Third scrollify panel -->
+        <section id="panel3" class="panel fullscreen" data-section-name="Panel 3 (or whatever you want to call it)">
+            <h1>Footer</h1>
+        </section>
+    </div>
+
+    <!-- SCRIPTS -->
+    <!-- We load scripts after the content in <body> so that content to be affected (above) is available -->
+    <script src="js/scrollify.js"></script>
+    <script src="js/scrollify-config.js"></script>
+    <script src="js/addRemoveClass.js"></script>
          
    </body>
 </html>
