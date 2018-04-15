@@ -1,23 +1,27 @@
+@media screen and (max-width: 940px) {
+    .site {
+        width: 90%;
+    }
+
+header {
+	width: 90%;
+	padding: 5px;
+}
+	
 .navbar-header {
 	background: blue;
 	font-family: 'Monoton', cursive;
 	font-size: 20px;
 	padding: 5px;
 
+body {
+	padding: 20px;
+}
+
 h1 {
 	font-family: 'Monoton', cursive;
 	text-align: center;
 	font-size: 75px;
-}
-	
-header {
-	width: 90%;
-	padding: 5px;
-}
-
-body {
-	width: 80%;
-	padding: 20px;
 }
 	
 ul {
