@@ -44,6 +44,11 @@ img {
 	margin: 40px 0px 0px 0px
 }
 
+.bodycontent {
+	width: 80%;
+	margin: auto;
+	padding: 10px;
+}
 	
 /* Contact form */
 	
