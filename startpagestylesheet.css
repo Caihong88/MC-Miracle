@@ -2,7 +2,7 @@ h1{
   color:white;
   font-family: Arial;
   text-align:center;
-  position:relative;
+  position:absolute;
   bottom:0;}
 
   .fullscreen-bg {
@@ -13,6 +13,7 @@ h1{
       left: 0;
       overflow: hidden;
       z-index: -100;
+      opacity:0.8
   }
 
   .fullscreen-bg__video {
@@ -21,4 +22,5 @@ h1{
       left: 0;
       width: 100%;
       height: 100%;
+      opacity: 0.8
   }
