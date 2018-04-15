@@ -3,18 +3,21 @@
 	font-family:'Monoton', cursive;
 	font-size:20px;
 
-
-
 h1 {
 	font-family: 'Monoton', cursive;
 	text-align: center;
 	font-size: 75px;
 }
+	
 header {
 	width: 90%;
 	padding: 20px;
 }
 
+body {
+	width: 80%;
+}
+	
 ul {
 	padding: 10px;
 	background: black;
@@ -35,6 +38,7 @@ img {
 	margin: 40px 0px 0px 0px
 }
 
+	
 /* Contact form */
 	
 #contact{
