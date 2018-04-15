@@ -1,11 +1,7 @@
 h1 {
-	color: blue;
 	font-family: 'Monoton', cursive;
 	text-align: center;
 	font-size: 75px;
-	background: url("http://dash.ga.co/assets/jeff-bg.png");
-	background-size: cover;
-	color: MediumSeaGreen;
 }
 
 header {
