@@ -5,23 +5,3 @@ h1 {
 	font-size: 75px;
   text-colour:
 }
-
-header {
-	width: 90%;
-}
-
-ul {
-	padding: 10px;
-	background: black;
-}
-
-li {
-	display: inline;
-	padding: 0px 10px 0px 10px;
-}
-
-h2 {
-	color: blue;
-	text-align: center;
-	font-size: 52px
-}
