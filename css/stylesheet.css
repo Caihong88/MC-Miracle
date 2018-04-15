@@ -1,9 +1,15 @@
+.navbar-header {
+	background:blue;
+	font-family:'Monoton', cursive;
+	font-size:20px;
+
+
+
 h1 {
 	font-family: 'Monoton', cursive;
 	text-align: center;
 	font-size: 75px;
 }
-
 header {
 	width: 90%;
 	padding: 20px;
