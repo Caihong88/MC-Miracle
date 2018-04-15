@@ -1,108 +1,83 @@
 <!DOCTYPE html>
 <html>
-   <head>
-	<link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="stylesheet.css">
-	 <script> src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
-	   </script>
-	   
-	   <script>
-        $(function() {
-          $.scrollify({
-            section : ".example-classname",
-          });
-        });
-      </script>   
-	<title>Hull Student Food Share</title>
-   </head>
+<head>
+    <meta charset="utf-8" />
+    <title>ScrollifySample</title>
+    <link href="css/default.css" rel="stylesheet" />
 
-   <body>
-      <header>
-         <h1>Food Share Students</h1>
-      </header>
-	      <nav>
-		 <ul>
-		   <li><a href="MC-Miracle/index.html">Home</a></li>
-		   <li><a href="MC-Miracle/about.html">About Us</a></li>
-		   <li><a href="MC-Miracle/get-involved.html">Get Involved</a></li>
-		   <li><a href="MC-Miracle/impact.html">Impact</a></li>
-		 </ul>
-	      </nav>
-	   <div class="example-classname"></div>
-      <div class="example-classname"></div>
-	   
-	    <div id="wrapper">
+    <!-- Load the latest jQuery for use in other scripts i.e. scrollify.js -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+<body>
+    <!-- CONTENT -->
+    <!-- The section tag is the same as <div> but implies (with no apparent effect) that the contents are all related/thematic. -->
+    <!-- The panel class identifies a scrollify section ("snap" region) -->
+    <!-- In this example, we have 3 regions(sections/panels) that we'll snap between. -->
+    <div id="wrapper">
 
         <section id="panel1" class="panel fullscreen" data-section-name="Landing Panel">
             <h1>Landing page</h1>
             <button class="scroll">Click to view next panel (or scroll)...</button>
             <img src="images/Celica.jpg" id="scroll-image" class="image-start-pos" style="max-width:50vh;" />
         </section>
-		    
-		     <!-- Second scrollify panel -->
+
+        <!-- Second scrollify panel -->
         <section id="panel2" class="panel" data-section-name="Panel 2">
             <h1>Panels grow with content but are otherwise full-screen</h1>
             <div>
-		   eros a sodales. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin 
-		    sagittis dignissim ante sed hendrerit. In hac habitasse platea dictumst. Mauris efficitur accumsan ipsum in lacinia. 
-		    Nulla odio orci, faucibus vitae gravida porttitor, efficitur a diam. Nunc aliquet mi ligula, sed porttitor lectus 
-		    faucibus non. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt consectetur lacinia. Nulla commodo accumsan magna, eu lobortis ligula tincidunt imperdiet. Aliquam erat volutpat. Maecenas feugiat pretium dolor, ac placerat tortor consectetur nec. Nunc lacinia leo mauris, eu molestie nulla fermentum et. Duis ut augue sagittis, convallis massa nec, porta quam. Aliquam erat volutpat. Vivamus congue arcu sed elit tempor, euismod egestas nisi imperdiet. Proin nec neque at enim molestie imperdiet et in ipsum. Nunc at mi sed odio interdum ultrices ut vel nulla. Aliquam erat volutpat. Sed laoreet est id eleifend suscipit. Pellentesque cursus, elit et sodales maximus, nibh lectus auctor ante, id sodales neque dui ac lectus. Ut pharetra luctus tortor, et tempor turpis varius non. Morbi a massa purus.
+                </p>
+                <p>
+                    Sed ultrices nibh sed pharetra luctus. Phasellus pulvinar urna eu sapien lacinia dapibus. Vestibulum ultrices ante velit, et tincidunt risus volutpat et. Curabitur vestibulum elementum finibus. Nulla hendrerit, est et dapibus aliquet, leo mi congue neque, at sagittis risus orci ut lorem. Suspendisse eu dui in quam dictum congue ac eget ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras vestibulum ornare nisi, eu feugiat lorem commodo sit amet. Aenean mollis pharetra tempus. Maecenas vel luctus nisi. Nunc lacus mi, tincidunt eu gravida ac, faucibus in felis. Nullam a volutpat lectus. Maecenas at ligula et nulla venenatis venenatis eget sed nulla. Cras a risus pellentesque, ultricies lectus et, rhoncus nibh.
+                </p>
+                <p>
+                    Maecenas ornare, diam ac varius auctor, nisi ex porta justo, et bibendum enim lacus ut felis. Aenean dictum et elit ut sagittis. Nullam condimentum nisi quis est interdum accumsan. Nam pretium in nulla in mattis. Mauris congue felis ut sem interdum finibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras vulputate sem sed ex commodo fringilla. Nam efficitur porttitor lorem tempus lobortis. Praesent at quam id velit facilisis tempor.
+                </p>
+                <p>
+                    Vestibulum hendrerit commodo quam vulputate laoreet. Sed mollis erat in volutpat tristique. Morbi at dolor eget ex tristique gravida non nec augue. Pellentesque cursus aliquam mi et tristique. Pellentesque rhoncus nisl at sollicitudin porttitor. Aliquam non tortor imperdiet, sodales ex sit amet, tincidunt tellus. Mauris vulputate molestie ipsum sed efficitur. Donec nec nisl sed lectus pretium blandit eu eu augue.
+                </p>
+                <p>
+                    Sed in dapibus magna. In nec dolor euismod, condimentum tortor non, aliquet neque. Aliquam vehicula, dui id placerat tincidunt, lectus lectus luctus leo, at tincidunt ante ligula at magna. Morbi ullamcorper scelerisque lobortis. In enim lorem, viverra pulvinar enim ac, sodales accumsan velit. Sed ullamcorper mauris ut eros aliquet, et pharetra elit consectetur. Pellentesque molestie neque tortor, dignissim scelerisque dui dignissim vitae.
+                </p>
 
-		Phasellus vestibulum sit amet ipsum sit amet ullamcorper. Donec porttitor viverra aliquet. Nunc et ligula eget felis 
-		    imperdiet dapibus sit amet consequat ante. In at facilisis magna. Nulla nisl quam, euismod ut velit quis, 
-		    sollicitudin bibendum nisl. 
-		    Maecenas ut dictum massa, sed maximus nulla. Aliquam molestie facilisis justo luctus dignissim. Aenean nec est lorem. Vestibulum posuere, nisl at consequat gravida, velit ex scelerisque turpis, nec luctus odio mi nec magna. Nam hendrerit varius elit in pulvinar. 
-		    </div> <!-- Just some content. -->
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt consectetur lacinia. Nulla commodo accumsan magna, eu lobortis ligula tincidunt imperdiet. Aliquam erat volutpat. Maecenas feugiat pretium dolor, ac placerat tortor consectetur nec. Nunc lacinia leo mauris, eu molestie nulla fermentum et. Duis ut augue sagittis, convallis massa nec, porta quam. Aliquam erat volutpat. Vivamus congue arcu sed elit tempor, euismod egestas nisi imperdiet. Proin nec neque at enim molestie imperdiet et in ipsum. Nunc at mi sed odio interdum ultrices ut vel nulla. Aliquam erat volutpat. Sed laoreet est id eleifend suscipit. Pellentesque cursus, elit et sodales maximus, nibh lectus auctor ante, id sodales neque dui ac lectus. Ut pharetra luctus tortor, et tempor turpis varius non. Morbi a massa purus.
+                </p>
+                <p>
+                    Sed ultrices nibh sed pharetra luctus. Phasellus pulvinar urna eu sapien lacinia dapibus. Vestibulum ultrices ante velit, et tincidunt risus volutpat et. Curabitur vestibulum elementum finibus. Nulla hendrerit, est et dapibus aliquet, leo mi congue neque, at sagittis risus orci ut lorem. Suspendisse eu dui in quam dictum congue ac eget ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras vestibulum ornare nisi, eu feugiat lorem commodo sit amet. Aenean mollis pharetra tempus. Maecenas vel luctus nisi. Nunc lacus mi, tincidunt eu gravida ac, faucibus in felis. Nullam a volutpat lectus. Maecenas at ligula et nulla venenatis venenatis eget sed nulla. Cras a risus pellentesque, ultricies lectus et, rhoncus nibh.
+                </p>
+                <p>
+                    Maecenas ornare, diam ac varius auctor, nisi ex porta justo, et bibendum enim lacus ut felis. Aenean dictum et elit ut sagittis. Nullam condimentum nisi quis est interdum accumsan. Nam pretium in nulla in mattis. Mauris congue felis ut sem interdum finibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras vulputate sem sed ex commodo fringilla. Nam efficitur porttitor lorem tempus lobortis. Praesent at quam id velit facilisis tempor.
+                </p>
+                <p>
+                    Vestibulum hendrerit commodo quam vulputate laoreet. Sed mollis erat in volutpat tristique. Morbi at dolor eget ex tristique gravida non nec augue. Pellentesque cursus aliquam mi et tristique. Pellentesque rhoncus nisl at sollicitudin porttitor. Aliquam non tortor imperdiet, sodales ex sit amet, tincidunt tellus. Mauris vulputate molestie ipsum sed efficitur. Donec nec nisl sed lectus pretium blandit eu eu augue.
+                </p>
+                <p>
+                    Sed in dapibus magna. In nec dolor euismod, condimentum tortor non, aliquet neque. Aliquam vehicula, dui id placerat tincidunt, lectus lectus luctus leo, at tincidunt ante ligula at magna. Morbi ullamcorper scelerisque lobortis. In enim lorem, viverra pulvinar enim ac, sodales accumsan velit. Sed ullamcorper mauris ut eros aliquet, et pharetra elit consectetur. Pellentesque molestie neque tortor, dignissim scelerisque dui dignissim vitae.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt consectetur lacinia. Nulla commodo accumsan magna, eu lobortis ligula tincidunt imperdiet. Aliquam erat volutpat. Maecenas feugiat pretium dolor, ac placerat tortor consectetur nec. Nunc lacinia leo mauris, eu molestie nulla fermentum et. Duis ut augue sagittis, convallis massa nec, porta quam. Aliquam erat volutpat. Vivamus congue arcu sed elit tempor, euismod egestas nisi imperdiet. Proin nec neque at enim molestie imperdiet et in ipsum. Nunc at mi sed odio interdum ultrices ut vel nulla. Aliquam erat volutpat. Sed laoreet est id eleifend suscipit. Pellentesque cursus, elit et sodales maximus, nibh lectus auctor ante, id sodales neque dui ac lectus. Ut pharetra luctus tortor, et tempor turpis varius non. Morbi a massa purus.
+                </p>
+                <p>
+                    Sed ultrices nibh sed pharetra luctus. Phasellus pulvinar urna eu sapien lacinia dapibus. Vestibulum ultrices ante velit, et tincidunt risus volutpat et. Curabitur vestibulum elementum finibus. Nulla hendrerit, est et dapibus aliquet, leo mi congue neque, at sagittis risus orci ut lorem. Suspendisse eu dui in quam dictum congue ac eget ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras vestibulum ornare nisi, eu feugiat lorem commodo sit amet. Aenean mollis pharetra tempus. Maecenas vel luctus nisi. Nunc lacus mi, tincidunt eu gravida ac, faucibus in felis. Nullam a volutpat lectus. Maecenas at ligula et nulla venenatis venenatis eget sed nulla. Cras a risus pellentesque, ultricies lectus et, rhoncus nibh.
+                </p>
+                <p>
+                    Maecenas ornare, diam ac varius auctor, nisi ex porta justo, et bibendum enim lacus ut felis. Aenean dictum et elit ut sagittis. Nullam condimentum nisi quis est interdum accumsan. Nam pretium in nulla in mattis. Mauris congue felis ut sem interdum finibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras vulputate sem sed ex commodo fringilla. Nam efficitur porttitor lorem tempus lobortis. Praesent at quam id velit facilisis tempor.
+                </p>
+                <p>
+                    Vestibulum hendrerit commodo quam vulputate laoreet. Sed mollis erat in volutpat tristique. Morbi at dolor eget ex tristique gravida non nec augue. Pellentesque cursus aliquam mi et tristique. Pellentesque rhoncus nisl at sollicitudin porttitor. Aliquam non tortor imperdiet, sodales ex sit amet, tincidunt tellus. Mauris vulputate molestie ipsum sed efficitur. Donec nec nisl sed lectus pretium blandit eu eu augue.
+                </p>
+                <p>
+                    Sed in dapibus magna. In nec dolor euismod, condimentum tortor non, aliquet neque. Aliquam vehicula, dui id placerat tincidunt, lectus lectus luctus leo, at tincidunt ante ligula at magna. Morbi ullamcorper scelerisque lobortis. In enim lorem, viverra pulvinar enim ac, sodales accumsan velit. Sed ullamcorper mauris ut eros aliquet, et pharetra elit consectetur. Pellentesque molestie neque tortor, dignissim scelerisque dui dignissim vitae.
+                </p>
+            </div> <!-- Just some content. -->
         </section>
-		    <!-- Third scrollify panel -->
+
+        <!-- Third scrollify panel -->
         <section id="panel3" class="panel fullscreen" data-section-name="Panel 3 (or whatever you want to call it)">
             <h1>Footer</h1>
-		  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt consectetur lacinia. Nulla commodo accumsan magna, eu lobortis ligula tincidunt imperdiet. Aliquam erat volutpat. Maecenas feugiat pretium dolor, ac placerat tortor consectetur nec. Nunc lacinia leo mauris, eu molestie nulla fermentum et. Duis ut augue sagittis, convallis massa nec, porta quam. Aliquam erat volutpat. Vivamus congue arcu sed elit tempor, euismod egestas nisi imperdiet. Proin nec neque at enim molestie imperdiet et in ipsum. Nunc at mi sed odio interdum ultrices ut vel nulla. Aliquam erat volutpat. Sed laoreet est id eleifend suscipit. Pellentesque cursus, elit et sodales maximus, nibh lectus auctor ante, id sodales neque dui ac lectus. Ut pharetra luctus tortor, et tempor turpis varius non. Morbi a massa purus.
-                </p>
-                <p>
-                    Sed ultrices nibh sed pharetra luctus. Phasellus pulvinar urna eu sapien lacinia dapibus. Vestibulum ultrices ante velit, et tincidunt risus volutpat et. Curabitur vestibulum elementum finibus. Nulla hendrerit, est et dapibus aliquet, leo mi congue neque, at sagittis risus orci ut lorem. Suspendisse eu dui in quam dictum congue ac eget ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras vestibulum ornare nisi, eu feugiat lorem commodo sit amet. Aenean mollis pharetra tempus. Maecenas vel luctus nisi. Nunc lacus mi, tincidunt eu gravida ac, faucibus in felis. Nullam a volutpat lectus. Maecenas at ligula et nulla venenatis venenatis eget sed nulla. Cras a risus pellentesque, ultricies lectus et, rhoncus nibh.
-                </p>
-                <p>
-                    Maecenas ornare, diam ac varius auctor, nisi ex porta justo, et bibendum enim lacus ut felis. Aenean dictum et elit ut sagittis. Nullam condimentum nisi quis est interdum accumsan. Nam pretium in nulla in mattis. Mauris congue felis ut sem interdum finibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras vulputate sem sed ex commodo fringilla. Nam efficitur porttitor lorem tempus lobortis. Praesent at quam id velit facilisis tempor.
-                </p>
-                <p>
-                    Vestibulum hendrerit commodo quam vulputate laoreet. Sed mollis erat in volutpat tristique. Morbi at dolor eget ex tristique gravida non nec augue. Pellentesque cursus aliquam mi et tristique. Pellentesque rhoncus nisl at sollicitudin porttitor. Aliquam non tortor imperdiet, sodales ex sit amet, tincidunt tellus. Mauris vulputate molestie ipsum sed efficitur. Donec nec nisl sed lectus pretium blandit eu eu augue.
-                </p>
-                <p>
-                    Sed in dapibus magna. In nec dolor euismod, condimentum tortor non, aliquet neque. Aliquam vehicula, dui id placerat tincidunt, lectus lectus luctus leo, at tincidunt ante ligula at magna. Morbi ullamcorper scelerisque lobortis. In enim lorem, viverra pulvinar enim ac, sodales accumsan velit. Sed ullamcorper mauris ut eros aliquet, et pharetra elit consectetur. Pellentesque molestie neque tortor, dignissim scelerisque dui dignissim vitae.
-                </p>
-
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt consectetur lacinia. Nulla commodo accumsan magna, eu lobortis ligula tincidunt imperdiet. Aliquam erat volutpat. Maecenas feugiat pretium dolor, ac placerat tortor consectetur nec. Nunc lacinia leo mauris, eu molestie nulla fermentum et. Duis ut augue sagittis, convallis massa nec, porta quam. Aliquam erat volutpat. Vivamus congue arcu sed elit tempor, euismod egestas nisi imperdiet. Proin nec neque at enim molestie imperdiet et in ipsum. Nunc at mi sed odio interdum ultrices ut vel nulla. Aliquam erat volutpat. Sed laoreet est id eleifend suscipit. Pellentesque cursus, elit et sodales maximus, nibh lectus auctor ante, id sodales neque dui ac lectus. Ut pharetra luctus tortor, et tempor turpis varius non. Morbi a massa purus.
-                </p>
-                <p>
-                    Sed ultrices nibh sed pharetra luctus. Phasellus pulvinar urna eu sapien lacinia dapibus. Vestibulum ultrices ante velit, et tincidunt risus volutpat et. Curabitur vestibulum elementum finibus. Nulla hendrerit, est et dapibus aliquet, leo mi congue neque, at sagittis risus orci ut lorem. Suspendisse eu dui in quam dictum congue ac eget ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras vestibulum ornare nisi, eu feugiat lorem commodo sit amet. Aenean mollis pharetra tempus. Maecenas vel luctus nisi. Nunc lacus mi, tincidunt eu gravida ac, faucibus in felis. Nullam a volutpat lectus. Maecenas at ligula et nulla venenatis venenatis eget sed nulla. Cras a risus pellentesque, ultricies lectus et, rhoncus nibh.
-                </p>
-                <p>
-                    Maecenas ornare, diam ac varius auctor, nisi ex porta justo, et bibendum enim lacus ut felis. Aenean dictum et elit ut sagittis. Nullam condimentum nisi quis est interdum accumsan. Nam pretium in nulla in mattis. Mauris congue felis ut sem interdum finibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras vulputate sem sed ex commodo fringilla. Nam efficitur porttitor lorem tempus lobortis. Praesent at quam id velit facilisis tempor.
-                </p>
-                <p>
-                    Vestibulum hendrerit commodo quam vulputate laoreet. Sed mollis erat in volutpat tristique. Morbi at dolor eget ex tristique gravida non nec augue. Pellentesque cursus aliquam mi et tristique. Pellentesque rhoncus nisl at sollicitudin porttitor. Aliquam non tortor imperdiet, sodales ex sit amet, tincidunt tellus. Mauris vulputate molestie ipsum sed efficitur. Donec nec nisl sed lectus pretium blandit eu eu augue.
-                </p>
-                <p>
-                    Sed in dapibus magna. In nec dolor euismod, condimentum tortor non, aliquet neque. Aliquam vehicula, dui id placerat tincidunt, lectus lectus luctus leo, at tincidunt ante ligula at magna. Morbi ullamcorper scelerisque lobortis. In enim lorem, viverra pulvinar enim ac, sodales accumsan velit. Sed ullamcorper mauris ut eros aliquet, et pharetra elit consectetur. Pellentesque molestie neque tortor, dignissim scelerisque dui dignissim vitae.
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt consectetur lacinia. Nulla commodo accumsan magna, eu lobortis ligula tincidunt imperdiet. Aliquam erat volutpat. Maecenas feugiat pretium dolor, ac placerat tortor consectetur nec. Nunc lacinia leo mauris, eu molestie nulla fermentum et. Duis ut augue sagittis, convallis massa nec, porta quam. Aliquam erat volutpat. Vivamus congue arcu sed elit tempor, euismod egestas nisi imperdiet. Proin nec neque at enim molestie imperdiet et in ipsum. Nunc at mi sed odio interdum ultrices ut vel nulla. Aliquam erat volutpat. Sed laoreet est id eleifend suscipit. Pellentesque cursus, elit et sodales maximus, nibh lectus auctor ante, id sodales neque dui ac lectus. Ut pharetra luctus tortor, et tempor turpis varius non. Morbi a massa purus.
-                </p>
-                <p>
-                    Sed ultrices nibh sed pharetra luctus. Phasellus pulvinar urna eu sapien lacinia dapibus. Vestibulum ultrices ante velit, et tincidunt risus volutpat et. Curabitur vestibulum elementum finibus. Nulla hendrerit, est et dapibus aliquet, leo mi congue neque, at sagittis risus orci ut lorem. Suspendisse eu dui in quam dictum congue ac eget ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras vestibulum ornare nisi, eu feugiat lorem commodo sit amet. Aenean mollis pharetra tempus. Maecenas vel luctus nisi. Nunc lacus mi, tincidunt eu gravida ac, faucibus in felis. Nullam a volutpat lectus. Maecenas at ligula et nulla venenatis venenatis eget sed nulla. Cras a risus pellentesque, ultricies lectus et, rhoncus nibh.
-                </p>
-                <p>
-                    Maecenas ornare, diam ac varius auctor, nisi ex porta justo, et bibendum enim lacus ut felis. Aenean dictum et elit ut sagittis. Nullam condimentum nisi quis est interdum accumsan. Nam pretium in nulla in mattis. Mauris congue felis ut sem interdum finibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras vulputate sem sed ex commodo fringilla. Nam efficitur porttitor lorem tempus lobortis. Praesent at quam id velit facilisis tempor.
-                </p>
-                <p>
-                    Vestibulum hendrerit commodo quam vulputate laoreet. Sed mollis erat in volutpat tristique. Morbi at dolor eget ex tristique gravida non nec augue. Pellentesque cursus aliquam mi et tristique. Pellentesque rhoncus nisl at sollicitudin porttitor. Aliquam non tortor imperdiet, sodales ex sit amet, tincidunt tellus. Mauris vulputate molestie ipsum sed efficitur. Donec nec nisl sed lectus pretium blandit eu eu augue.
-                </p>
-                <p>
-                    Sed in dapibus magna. In nec dolor euismod, condimentum tortor non, aliquet neque. Aliquam vehicula, dui id placerat tincidunt, lectus lectus luctus leo, at tincidunt ante ligula at magna. Morbi ullamcorper scelerisque lobortis. In enim lorem, viverra pulvinar enim ac, sodales accumsan velit. Sed ullamcorper mauris ut eros aliquet, et pharetra elit consectetur. Pellentesque molestie neque tortor, dignissim scelerisque dui dignissim vitae.
-                </p>
         </section>
     </div>
 
@@ -111,6 +86,5 @@
     <script src="js/scrollify.js"></script>
     <script src="js/scrollify-config.js"></script>
     <script src="js/addRemoveClass.js"></script>
-         
-   </body>
+</body>
 </html>
