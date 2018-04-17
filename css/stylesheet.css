@@ -16,17 +16,10 @@ body {
   padding-bottom: 50px;
 }
 
-h1 {
-  padding-bottom: 10px;
-  font-family: 'Monoton', cursive;
-  text-align: center;
-  font-size: 75px;
-}
-
 /* Nav bar */
 
 nav {
-  background: #007b5e
+  background: #007b5e;
 }
 
 .active {
