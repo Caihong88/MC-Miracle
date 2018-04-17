@@ -20,25 +20,6 @@ body {
 h1 {
   padding-bottom: 10px;
 }
-
-header {
-  height: calc(100vh - 50px);
-  padding-top: 50px;
-  background-color: #B0B9FF;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  font-size: 40px;
-  color: #FFF6B0;
-  text-transform: uppercase;
-}
-
 	
 h1 {
 	font-family: 'Monoton', cursive;
