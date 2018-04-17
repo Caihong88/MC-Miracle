@@ -23,7 +23,13 @@ h1 {
 	text-align: center;
 	font-size: 75px;
 }
-	
+
+/* Nav bar */
+
+nav {
+  background: #007b5e
+}
+
 /* Contact form */
 
 #contact-section {
@@ -39,20 +45,19 @@ h1 {
 }
 
 .form-control {
-	    border-radius: 0;
-	    border:2px solid #1e1e1e;
+  border-radius: 0;
+  border:2px solid #1e1e1e;
 }
 
 .btn {
-	    border-radius:0;
-	    border:2px solid #1e1e1e;
+  border-radius:0;
+  border:2px solid #1e1e1e;
 }
 
 @media (max-width: 1000px) {
-    #contact iframe {
-        margin-bottom: 15px;
+  #contact iframe {
+    margin-bottom: 15px;
     }
-
 }
 
 /* Footer */
