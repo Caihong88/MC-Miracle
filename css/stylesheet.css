@@ -3,7 +3,9 @@ body {
   color: #424242;
   font-family: "Cabin", sans-serif;
 }
-
+li {
+	display:inline;
+}
 #home {
   position: fixed;
   height: 50px;
