@@ -1,20 +1,9 @@
 
-header {
-	width: 90%;
-	padding: 5px;
-}
-	
 .navbar-header {
 	background: blue;
 	font-family: 'Monoton', cursive;
 	font-size: 20px;
 	padding: 5px;
-
-.bodycontent {
-	width: 80%;
-	margin: auto;
-	padding: 20px;
-}
 	
 h1 {
 	font-family: 'Monoton', cursive;
@@ -28,14 +17,20 @@ h2 {
 	font-size: 52px;
 }
 
-ul {
+.nav navbar-nav navbar-right {
 	padding: 10px;
 	background: black;
 }
 
-li {
+.page-scroll {
 	display: inline;
-	padding: 0px 10px 0px 10px;
+	padding: 5px 10px 0px 10px;
+}
+	
+body {
+	width: 80%;
+	margin: auto;
+	padding: 20px;
 }
 	
 /* Contact form */
