@@ -6,7 +6,6 @@ body {
   color: #424242;
   font-family: "Cabin", sans-serif;
   padding-top: 50px;
-  padding-bottom: 50px;
 }
 
 .about {
@@ -18,16 +17,20 @@ body {
 }
 
 h1 {
-	padding-bottom: 10px;
-	font-family: 'Monoton', cursive;
-	text-align: center;
-	font-size: 75px;
+  padding-bottom: 10px;
+  font-family: 'Monoton', cursive;
+  text-align: center;
+  font-size: 75px;
 }
 
 /* Nav bar */
 
 nav {
   background: #007b5e
+}
+
+.active {
+  font-weight: bold;
 }
 
 /* Contact form */
