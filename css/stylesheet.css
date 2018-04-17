@@ -91,7 +91,7 @@ h1 {
   padding-left: 10px;
   padding-bottom: 6px;
   margin-bottom: 10px;
-  color: #ffffff;
+  color: #ffffff !important;
   text-transform: uppercase;
 }
 
@@ -100,27 +100,6 @@ h1 {
   text-decoration: none !important;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
-}
-
-#footer ul.quick-links li {
-  padding: 3px 0;
-  -webkit-transition: .5s all ease;
-  -moz-transition: .5s all ease;
-  transition: .5s all ease;
-}
-
-#footer ul.quick-links li:hover {
-  padding: 3px 0;
-  margin-left: 5px;
-  font-weight: 700;
-}
-
-#footer ul.quick-links li a i {
-  margin-right: 5px;
-}
-
-#footer ul.quick-links li:hover a i {
-  font-weight: 700;
 }
 
 @media (max-width:767px) {
