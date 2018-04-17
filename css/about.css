@@ -1,8 +1,17 @@
-h1 {
+
   h1 {
 	font-family: 'Monoton', cursive;
 	text-align: center;
 	font-size: 75px;
-  text-colour:
+	text-colour:
 }
 	
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	display: inline;
+}
