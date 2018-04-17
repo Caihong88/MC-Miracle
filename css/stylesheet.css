@@ -26,65 +26,37 @@ h1 {
 	text-align: center;
 	font-size: 75px;
 }
-
-h2 {
-	color: blue;
-	text-align: center;
-	font-size: 52px;
-}
-
-.page-scroll {
-	display: inline;
-	padding: 5px 10px 0px 10px;
-}
-	
-body {
-	width: 80%;
-	font-family: serif;
-	margin: auto;
-	padding: 20px;
-}
 	
 /* Contact form */
 
 #contact-section {
 	padding-top: 50px;
 	padding-bottom: 50px;
+  margin: auto;
 }
 
-#contact {
-	    background-color:#f1f1f1;
-	    font-family: 'Roboto', sans-serif;
-	    padding: -10px 0px;
+.well {
+  text-transform: uppercase;
+  background-color: white;
+  color: black;
 }
 
-#contact .well {
-	    margin-top:30px;
-	    border-radius:0;
-}
-
-#contact .form-control {
+.form-control {
 	    border-radius: 0;
 	    border:2px solid #1e1e1e;
 }
 
-#contact button {
+.btn {
 	    border-radius:0;
 	    border:2px solid #1e1e1e;
 }
 
-#contact .row {
-	    margin-bottom:30px;
-}
-
-@media (max-width: 768px) { 
+@media (max-width: 1000px) {
     #contact iframe {
         margin-bottom: 15px;
     }
-    
-}
 
-/* Contact form end */
+}
 
 /* Footer */
 
@@ -92,9 +64,8 @@ body {
 
 #footer {
 	background: #007b5e !important;
-	padding: 60px;
+	padding: 20px;
 	color: #007b5e;
-	margin-bottom: 50px;
 	text-align: center;
 }
 
@@ -102,8 +73,9 @@ body {
   padding-left: 10px;
   border-left: 3px solid #eeeeee;
   padding-bottom: 6px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   color: #ffffff;
+  text-transform: uppercase;
 }
 
 #footer a {
@@ -111,32 +83,6 @@ body {
   text-decoration: none !important;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
-}
-
-#footer ul.social li {
-  padding: 3px 0;
-}
-
-#footer ul.social li a i {
-  margin-right: 5px;
-  font-size: 25px;
-  -webkit-transition: .5s all ease;
-  -moz-transition: .5s all ease;
-  transition: .5s all ease;
-}
-
-#footer ul.social li:hover a i {
-  font-size: 30px;
-  margin-top: -10px;
-}
-
-#footer ul.social li a,
-#footer ul.quick-links li a {
-  color: #ffffff;
-}
-
-#footer ul.social li a:hover {
-  color: #eeeeee;
 }
 
 #footer ul.quick-links li {
@@ -168,5 +114,3 @@ body {
     margin-bottom: 10px;
   }
 }
-
-/* Footer end */
