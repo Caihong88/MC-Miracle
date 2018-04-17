@@ -3,45 +3,57 @@
 body {
   margin-left: auto;
   margin-right: auto;
-  color: #424242;
   font-family: "Cabin", sans-serif;
-  padding-top: 60px;
+  padding-top: 70px;
+  color: #000000 !important;
 }
 
-.about {
-  padding-bottom: 20px;
-}
-
-.about-bottom {
-  padding-bottom: 50px;
+.content {
+  padding-bottom: 30px;
 }
 
 h1 {
-  text-align: center;
+	text-align: center;
+}
+
+#homep {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#impact {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#get-involved {
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
 /* Nav bar */
 
-nav {
-  background: #007b5e;
+#main-navbar {
+  padding-top: 6px;
+  padding-bottom: 6px;
 }
 
 .active {
-  font-weight: bold;
+  font-weight: bold !important;
 }
 
 /* Contact form */
 
 #contact-section {
 	padding-top: 50px;
-	padding-bottom: 50px;
-  margin: auto;
+	padding-bottom: 100px;
 }
 
 .well {
+  background: #ffffff !important;
   text-transform: uppercase;
-  background-color: white;
-  color: black;
+  padding-top: -10px !important;
+  padding-bottom: 15px !important;
 }
 
 .form-control {
