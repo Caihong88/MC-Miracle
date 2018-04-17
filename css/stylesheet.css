@@ -16,6 +16,10 @@ body {
   padding-bottom: 50px;
 }
 
+h1 {
+  text-align: center;
+}
+
 /* Nav bar */
 
 nav {
