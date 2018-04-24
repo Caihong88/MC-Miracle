@@ -16,7 +16,8 @@ body {
 h1 {
 	text-align: center;
 	font-family: Cabin Sketch, cursive;
-	text-shadow: 3px 2px grey;
+	font-size:5em;
+	
 }
 
 #homep {
@@ -114,3 +115,4 @@ h1 {
     margin-bottom: 10px;
   }
 }
+.page-scroll{font-family:Cabin Sketch;}
