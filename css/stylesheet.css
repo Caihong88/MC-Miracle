@@ -52,6 +52,10 @@ a {
   color: #ffffff !important;
 }
 
+.navbar-default .navbar-nav>li>a {
+	color: #ffffff;
+}
+
 .well well-sm {
 	background: #007b5e !important;
 }
