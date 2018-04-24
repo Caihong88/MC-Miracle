@@ -46,6 +46,7 @@ h1 {
 #main-navbar {
   padding-top: 6px;
   padding-bottom: 6px;
+  background: #007b5e !important;
 }
 
 /* Contact form */
