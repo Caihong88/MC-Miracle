@@ -16,14 +16,12 @@ body {
 h1 {
 	text-align: center;
 	font-family: Cabin Sketch, cursive;
-	font-size:5em;
-	
+	font-size: 5em;
 }
 
 #homep {
 	padding-top: 50px;
 	padding-bottom: 50px;
-	
 }
 
 #impact {
@@ -47,6 +45,10 @@ h1 {
   padding-top: 6px;
   padding-bottom: 6px;
   background: #007b5e !important;
+}
+
+.container {
+	background: #007b5e !important;
 }
 
 /* Contact form */
