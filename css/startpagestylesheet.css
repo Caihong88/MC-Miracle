@@ -32,7 +32,7 @@ html, body {
 
 .content h1{
   color:#000000 !important;
-  font-family: "Cabin" sans-serif;
+  font-family: Cabin Sketch;
   font-size: 500%;
   text-align: center;
   bottom:0;
@@ -40,7 +40,7 @@ html, body {
 }
 .btn{
   border-radius: 9px;
-  font-family: "Cabin" sans-serif;
+  font-family: Cabin Sketch;
   color:#000000 !important;
   font-size:135%;
   padding:10px 20px;
