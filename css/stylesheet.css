@@ -68,6 +68,8 @@ a {
   text-transform: uppercase;
   padding-top: -10px !important;
   padding-bottom: 15px !important;
+  border-color: #007b5e !important;
+  border-width: 2px;
 }
 
 .form-control {
