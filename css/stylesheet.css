@@ -7,6 +7,7 @@ body {
   font-family: "Cabin" sans-serif;
   padding-top: 70px;
   color: #000000 !important;
+  font-size: 15px;
 }
 
 .content {
@@ -19,7 +20,7 @@ h1 {
 	font-size: 5em;
 }
 
-a { 
+a {
 	color: #ffffff !important;
 }
 
@@ -50,10 +51,16 @@ a {
   padding-bottom: 6px;
   background: #007b5e !important;
   color: #ffffff !important;
+  font-size: 17px;
 }
 
-.well well-sm {
-	background: #007b5e !important;
+.navbar-brand {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.active {
+  background-color: #004939 !important;
 }
 
 /* Contact form */
